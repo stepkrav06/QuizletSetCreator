@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27FB7225299A6E2C005695A2 /* QuizletSetCreatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FB7224299A6E2C005695A2 /* QuizletSetCreatorApp.swift */; };
+		27FB7227299A6E2C005695A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FB7226299A6E2C005695A2 /* ContentView.swift */; };
+		27FB7229299A6E2E005695A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27FB7228299A6E2E005695A2 /* Assets.xcassets */; };
+		27FB722C299A6E2E005695A2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27FB722B299A6E2E005695A2 /* Preview Assets.xcassets */; };
+		27FB7237299A6E2F005695A2 /* QuizletSetCreatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FB7236299A6E2F005695A2 /* QuizletSetCreatorTests.swift */; };
+		27FB7241299A6E2F005695A2 /* QuizletSetCreatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FB7240299A6E2F005695A2 /* QuizletSetCreatorUITests.swift */; };
+		27FB7243299A6E2F005695A2 /* QuizletSetCreatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FB7242299A6E2F005695A2 /* QuizletSetCreatorUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		27FB7233299A6E2F005695A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27FB7219299A6E2C005695A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27FB7220299A6E2C005695A2;
+			remoteInfo = QuizletSetCreator;
+		};
+		27FB723D299A6E2F005695A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27FB7219299A6E2C005695A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27FB7220299A6E2C005695A2;
+			remoteInfo = QuizletSetCreator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		27FB7221299A6E2C005695A2 /* QuizletSetCreator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuizletSetCreator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		27FB7224299A6E2C005695A2 /* QuizletSetCreatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizletSetCreatorApp.swift; sourceTree = "<group>"; };
+		27FB7226299A6E2C005695A2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		27FB7228299A6E2E005695A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		27FB722B299A6E2E005695A2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		27FB722D299A6E2E005695A2 /* QuizletSetCreator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = QuizletSetCreator.entitlements; sourceTree = "<group>"; };
+		27FB7232299A6E2F005695A2 /* QuizletSetCreatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizletSetCreatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27FB7236299A6E2F005695A2 /* QuizletSetCreatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizletSetCreatorTests.swift; sourceTree = "<group>"; };
+		27FB723C299A6E2F005695A2 /* QuizletSetCreatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizletSetCreatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27FB7240299A6E2F005695A2 /* QuizletSetCreatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizletSetCreatorUITests.swift; sourceTree = "<group>"; };
+		27FB7242299A6E2F005695A2 /* QuizletSetCreatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizletSetCreatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27FB721E299A6E2C005695A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27FB722F299A6E2F005695A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27FB7239299A6E2F005695A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27FB7218299A6E2C005695A2 = {
+			isa = PBXGroup;
+			children = (
+				27FB7223299A6E2C005695A2 /* QuizletSetCreator */,
+				27FB7235299A6E2F005695A2 /* QuizletSetCreatorTests */,
+				27FB723F299A6E2F005695A2 /* QuizletSetCreatorUITests */,
+				27FB7222299A6E2C005695A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		27FB7222299A6E2C005695A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27FB7221299A6E2C005695A2 /* QuizletSetCreator.app */,
+				27FB7232299A6E2F005695A2 /* QuizletSetCreatorTests.xctest */,
+				27FB723C299A6E2F005695A2 /* QuizletSetCreatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27FB7223299A6E2C005695A2 /* QuizletSetCreator */ = {
+			isa = PBXGroup;
+			children = (
+				27FB7224299A6E2C005695A2 /* QuizletSetCreatorApp.swift */,
+				27FB7226299A6E2C005695A2 /* ContentView.swift */,
+				27FB7228299A6E2E005695A2 /* Assets.xcassets */,
+				27FB722D299A6E2E005695A2 /* QuizletSetCreator.entitlements */,
+				27FB722A299A6E2E005695A2 /* Preview Content */,
+			);
+			path = QuizletSetCreator;
+			sourceTree = "<group>";
+		};
+		27FB722A299A6E2E005695A2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				27FB722B299A6E2E005695A2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		27FB7235299A6E2F005695A2 /* QuizletSetCreatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				27FB7236299A6E2F005695A2 /* QuizletSetCreatorTests.swift */,
+			);
+			path = QuizletSetCreatorTests;
+			sourceTree = "<group>";
+		};
+		27FB723F299A6E2F005695A2 /* QuizletSetCreatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				27FB7240299A6E2F005695A2 /* QuizletSetCreatorUITests.swift */,
+				27FB7242299A6E2F005695A2 /* QuizletSetCreatorUITestsLaunchTests.swift */,
+			);
+			path = QuizletSetCreatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27FB7220299A6E2C005695A2 /* QuizletSetCreator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27FB7246299A6E2F005695A2 /* Build configuration list for PBXNativeTarget "QuizletSetCreator" */;
+			buildPhases = (
+				27FB721D299A6E2C005695A2 /* Sources */,
+				27FB721E299A6E2C005695A2 /* Frameworks */,
+				27FB721F299A6E2C005695A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuizletSetCreator;
+			productName = QuizletSetCreator;
+			productReference = 27FB7221299A6E2C005695A2 /* QuizletSetCreator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		27FB7231299A6E2F005695A2 /* QuizletSetCreatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27FB7249299A6E2F005695A2 /* Build configuration list for PBXNativeTarget "QuizletSetCreatorTests" */;
+			buildPhases = (
+				27FB722E299A6E2F005695A2 /* Sources */,
+				27FB722F299A6E2F005695A2 /* Frameworks */,
+				27FB7230299A6E2F005695A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27FB7234299A6E2F005695A2 /* PBXTargetDependency */,
+			);
+			name = QuizletSetCreatorTests;
+			productName = QuizletSetCreatorTests;
+			productReference = 27FB7232299A6E2F005695A2 /* QuizletSetCreatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		27FB723B299A6E2F005695A2 /* QuizletSetCreatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27FB724C299A6E2F005695A2 /* Build configuration list for PBXNativeTarget "QuizletSetCreatorUITests" */;
+			buildPhases = (
+				27FB7238299A6E2F005695A2 /* Sources */,
+				27FB7239299A6E2F005695A2 /* Frameworks */,
+				27FB723A299A6E2F005695A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27FB723E299A6E2F005695A2 /* PBXTargetDependency */,
+			);
+			name = QuizletSetCreatorUITests;
+			productName = QuizletSetCreatorUITests;
+			productReference = 27FB723C299A6E2F005695A2 /* QuizletSetCreatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27FB7219299A6E2C005695A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					27FB7220299A6E2C005695A2 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					27FB7231299A6E2F005695A2 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 27FB7220299A6E2C005695A2;
+					};
+					27FB723B299A6E2F005695A2 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 27FB7220299A6E2C005695A2;
+					};
+				};
+			};
+			buildConfigurationList = 27FB721C299A6E2C005695A2 /* Build configuration list for PBXProject "QuizletSetCreator" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 27FB7218299A6E2C005695A2;
+			productRefGroup = 27FB7222299A6E2C005695A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27FB7220299A6E2C005695A2 /* QuizletSetCreator */,
+				27FB7231299A6E2F005695A2 /* QuizletSetCreatorTests */,
+				27FB723B299A6E2F005695A2 /* QuizletSetCreatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27FB721F299A6E2C005695A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27FB722C299A6E2E005695A2 /* Preview Assets.xcassets in Resources */,
+				27FB7229299A6E2E005695A2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27FB7230299A6E2F005695A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27FB723A299A6E2F005695A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27FB721D299A6E2C005695A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27FB7227299A6E2C005695A2 /* ContentView.swift in Sources */,
+				27FB7225299A6E2C005695A2 /* QuizletSetCreatorApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27FB722E299A6E2F005695A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27FB7237299A6E2F005695A2 /* QuizletSetCreatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27FB7238299A6E2F005695A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27FB7241299A6E2F005695A2 /* QuizletSetCreatorUITests.swift in Sources */,
+				27FB7243299A6E2F005695A2 /* QuizletSetCreatorUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27FB7234299A6E2F005695A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27FB7220299A6E2C005695A2 /* QuizletSetCreator */;
+			targetProxy = 27FB7233299A6E2F005695A2 /* PBXContainerItemProxy */;
+		};
+		27FB723E299A6E2F005695A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27FB7220299A6E2C005695A2 /* QuizletSetCreator */;
+			targetProxy = 27FB723D299A6E2F005695A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		27FB7244299A6E2F005695A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		27FB7245299A6E2F005695A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		27FB7247299A6E2F005695A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = QuizletSetCreator/QuizletSetCreator.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"QuizletSetCreator/Preview Content\"";
+				DEVELOPMENT_TEAM = 9956J4X2YH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = somePIE.QuizletSetCreator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		27FB7248299A6E2F005695A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = QuizletSetCreator/QuizletSetCreator.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"QuizletSetCreator/Preview Content\"";
+				DEVELOPMENT_TEAM = 9956J4X2YH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = somePIE.QuizletSetCreator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		27FB724A299A6E2F005695A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9956J4X2YH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = somePIE.QuizletSetCreatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuizletSetCreator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/QuizletSetCreator";
+			};
+			name = Debug;
+		};
+		27FB724B299A6E2F005695A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9956J4X2YH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = somePIE.QuizletSetCreatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuizletSetCreator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/QuizletSetCreator";
+			};
+			name = Release;
+		};
+		27FB724D299A6E2F005695A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9956J4X2YH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = somePIE.QuizletSetCreatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = QuizletSetCreator;
+			};
+			name = Debug;
+		};
+		27FB724E299A6E2F005695A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9956J4X2YH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = somePIE.QuizletSetCreatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = QuizletSetCreator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27FB721C299A6E2C005695A2 /* Build configuration list for PBXProject "QuizletSetCreator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27FB7244299A6E2F005695A2 /* Debug */,
+				27FB7245299A6E2F005695A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27FB7246299A6E2F005695A2 /* Build configuration list for PBXNativeTarget "QuizletSetCreator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27FB7247299A6E2F005695A2 /* Debug */,
+				27FB7248299A6E2F005695A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27FB7249299A6E2F005695A2 /* Build configuration list for PBXNativeTarget "QuizletSetCreatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27FB724A299A6E2F005695A2 /* Debug */,
+				27FB724B299A6E2F005695A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27FB724C299A6E2F005695A2 /* Build configuration list for PBXNativeTarget "QuizletSetCreatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27FB724D299A6E2F005695A2 /* Debug */,
+				27FB724E299A6E2F005695A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27FB7219299A6E2C005695A2 /* Project object */;
+}
