@@ -14,6 +14,8 @@
 		27FB7237299A6E2F005695A2 /* QuizletSetCreatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FB7236299A6E2F005695A2 /* QuizletSetCreatorTests.swift */; };
 		27FB7241299A6E2F005695A2 /* QuizletSetCreatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FB7240299A6E2F005695A2 /* QuizletSetCreatorUITests.swift */; };
 		27FB7243299A6E2F005695A2 /* QuizletSetCreatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FB7242299A6E2F005695A2 /* QuizletSetCreatorUITestsLaunchTests.swift */; };
+		27FB7250299A6FF1005695A2 /* WordCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FB724F299A6FF1005695A2 /* WordCard.swift */; };
+		27FB7252299A8E7D005695A2 /* Define.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FB7251299A8E7D005695A2 /* Define.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		27FB723C299A6E2F005695A2 /* QuizletSetCreatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizletSetCreatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27FB7240299A6E2F005695A2 /* QuizletSetCreatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizletSetCreatorUITests.swift; sourceTree = "<group>"; };
 		27FB7242299A6E2F005695A2 /* QuizletSetCreatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizletSetCreatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		27FB724F299A6FF1005695A2 /* WordCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordCard.swift; sourceTree = "<group>"; };
+		27FB7251299A8E7D005695A2 /* Define.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Define.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 			children = (
 				27FB7224299A6E2C005695A2 /* QuizletSetCreatorApp.swift */,
 				27FB7226299A6E2C005695A2 /* ContentView.swift */,
+				27FB7251299A8E7D005695A2 /* Define.swift */,
+				27FB724F299A6FF1005695A2 /* WordCard.swift */,
 				27FB7228299A6E2E005695A2 /* Assets.xcassets */,
 				27FB722D299A6E2E005695A2 /* QuizletSetCreator.entitlements */,
 				27FB722A299A6E2E005695A2 /* Preview Content */,
@@ -145,6 +151,8 @@
 			dependencies = (
 			);
 			name = QuizletSetCreator;
+			packageProductDependencies = (
+			);
 			productName = QuizletSetCreator;
 			productReference = 27FB7221299A6E2C005695A2 /* QuizletSetCreator.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +225,8 @@
 				Base,
 			);
 			mainGroup = 27FB7218299A6E2C005695A2;
+			packageReferences = (
+			);
 			productRefGroup = 27FB7222299A6E2C005695A2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,7 +269,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27FB7250299A6FF1005695A2 /* WordCard.swift in Sources */,
 				27FB7227299A6E2C005695A2 /* ContentView.swift in Sources */,
+				27FB7252299A8E7D005695A2 /* Define.swift in Sources */,
 				27FB7225299A6E2C005695A2 /* QuizletSetCreatorApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
