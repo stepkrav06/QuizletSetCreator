@@ -37,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		277C54B3299C11B500515B91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		27FB7221299A6E2C005695A2 /* QuizletSetCreator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuizletSetCreator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27FB7224299A6E2C005695A2 /* QuizletSetCreatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizletSetCreatorApp.swift; sourceTree = "<group>"; };
 		27FB7226299A6E2C005695A2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -101,6 +102,7 @@
 		27FB7223299A6E2C005695A2 /* QuizletSetCreator */ = {
 			isa = PBXGroup;
 			children = (
+				277C54B3299C11B500515B91 /* Info.plist */,
 				27FB7224299A6E2C005695A2 /* QuizletSetCreatorApp.swift */,
 				27FB7226299A6E2C005695A2 /* ContentView.swift */,
 				27FB7256299B885A005695A2 /* DefinitionPickView.swift */,
@@ -440,6 +442,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QuizletSetCreator/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -467,6 +470,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QuizletSetCreator/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

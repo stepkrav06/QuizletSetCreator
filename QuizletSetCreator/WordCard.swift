@@ -12,7 +12,7 @@ struct WordCard: View {
     var definitions: [String]
     
     var body: some View {
-        NavigationStack{
+        
             
                 ZStack{
                     RoundedRectangle(cornerRadius: 30)
@@ -38,7 +38,7 @@ struct WordCard: View {
                 }.frame(maxWidth: .infinity, minHeight: 200)
             
             
-        }
+        
     }
 }
 
