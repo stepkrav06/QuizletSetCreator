@@ -16,6 +16,7 @@
 		27FB7243299A6E2F005695A2 /* QuizletSetCreatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FB7242299A6E2F005695A2 /* QuizletSetCreatorUITestsLaunchTests.swift */; };
 		27FB7250299A6FF1005695A2 /* WordCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FB724F299A6FF1005695A2 /* WordCard.swift */; };
 		27FB7252299A8E7D005695A2 /* Define.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FB7251299A8E7D005695A2 /* Define.swift */; };
+		27FB7257299B885A005695A2 /* DefinitionPickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27FB7256299B885A005695A2 /* DefinitionPickView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		27FB7242299A6E2F005695A2 /* QuizletSetCreatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizletSetCreatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		27FB724F299A6FF1005695A2 /* WordCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordCard.swift; sourceTree = "<group>"; };
 		27FB7251299A8E7D005695A2 /* Define.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Define.swift; sourceTree = "<group>"; };
+		27FB7256299B885A005695A2 /* DefinitionPickView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefinitionPickView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				27FB7224299A6E2C005695A2 /* QuizletSetCreatorApp.swift */,
 				27FB7226299A6E2C005695A2 /* ContentView.swift */,
+				27FB7256299B885A005695A2 /* DefinitionPickView.swift */,
 				27FB7251299A8E7D005695A2 /* Define.swift */,
 				27FB724F299A6FF1005695A2 /* WordCard.swift */,
 				27FB7228299A6E2E005695A2 /* Assets.xcassets */,
@@ -270,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				27FB7250299A6FF1005695A2 /* WordCard.swift in Sources */,
+				27FB7257299B885A005695A2 /* DefinitionPickView.swift in Sources */,
 				27FB7227299A6E2C005695A2 /* ContentView.swift in Sources */,
 				27FB7252299A8E7D005695A2 /* Define.swift in Sources */,
 				27FB7225299A6E2C005695A2 /* QuizletSetCreatorApp.swift in Sources */,

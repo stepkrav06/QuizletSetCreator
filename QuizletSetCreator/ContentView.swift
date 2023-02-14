@@ -10,44 +10,69 @@ import CoreServices.DictionaryServices
 
 struct ContentView: View {
     let txt = "walk"
-    @State var definitions: [String:Any] = [:]
+    @State var definitions: [String:[String]] = [:]
     @State private var words: String = ""
+    @State private var changingDefinitinos = false
+    @State private var changingDefinitinosForWord: String = ""
     var body: some View {
-        TextField(
-                "words",
-                text: $words
-            )
-        Button(action:{
-            let strArray = words.components(separatedBy: ", ")
-            print(strArray)
-            
-            for word in strArray{
-                getData(word:word) { (json) in
-                
-                    var definitionsWord: [String] = []
-                    let meanings = json[0]["meanings"] as! [[String:Any]]
-                    for item in meanings {
-                        let sets = item["definitions"] as! [[String:Any]]
-                        for set in sets {
-                            definitionsWord.append(set["definition"] as! String)
+        if changingDefinitinos{
+            DefinitionPickView(word: changingDefinitinosForWord, definitions: definitions[changingDefinitinosForWord]!)
+        }
+        else {
+            VStack{
+                TextField(
+                        "words",
+                        text: $words
+                    )
+                Button(action:{
+                    let strArray = words.components(separatedBy: ", ")
+                    print(strArray)
+                    
+                    for word in strArray{
+                        getData(word:word) { (json) in
+                            var definitionsWord: [String] = []
+                            for i in 0...json.count-1{
+                                let meanings = json[i]["meanings"] as! [[String:Any]]
+                                for item in meanings {
+                                    let sets = item["definitions"] as! [[String:Any]]
+                                    for set in sets {
+                                        definitionsWord.append(set["definition"] as! String)
+                                    }
+                                }
+                            }
+                            
+                            
+                            
+                            definitions[json[0]["word"] as! String] = definitionsWord
+                            
                         }
                     }
-                    definitions[json[0]["word"] as! String] = definitionsWord
-                    print(definitions["walk"])
+                    
+                   
+                }){
+                    Text("search")
                 }
-            }
+                ScrollView{
+                    ForEach(Array(definitions.keys), id: \.self) { key in
+                        ZStack{
+                        
+                            
+                            WordCard(word: key, definitions: definitions[key] as! [String])
+                                .onTapGesture {
+                                    self.changingDefinitinos = true
+                                    self.changingDefinitinosForWord = key
+                                }
+                        }
+                                
+                        
             
-           
-        }){
-            Text("search")
-        }
-        ScrollView{
-            ForEach(Array(definitions.keys), id: \.self) { key in
-                WordCard(word: key, definitions: definitions[key] as! [String])
-                
+                        
+                        
+                    }
+                }
+               
             }
         }
-       
     }
 }
 

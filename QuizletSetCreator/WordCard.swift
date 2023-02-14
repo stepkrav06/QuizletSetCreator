@@ -10,27 +10,34 @@ import SwiftUI
 struct WordCard: View {
     var word: String
     var definitions: [String]
+    
     var body: some View {
-        ZStack{
-            RoundedRectangle(cornerRadius: 30)
-                .frame(maxWidth: .infinity, maxHeight: .infinity)
-                .padding()
-                .foregroundColor(.primary)
-            HStack{
-                Text(word)
-                    .foregroundColor(.black)
-                    .frame(maxWidth: .infinity, alignment: .center)
-                Divider()
-                VStack{
-                    ForEach(definitions, id: \.self){ definition in
-                        Text(definition)
+        NavigationStack{
+            
+                ZStack{
+                    RoundedRectangle(cornerRadius: 30)
+                        .frame(maxWidth: .infinity, maxHeight: .infinity)
+                        
+                        .foregroundColor(.primary)
+                    HStack{
+                        Text(word)
                             .foregroundColor(.black)
                             .frame(maxWidth: .infinity, alignment: .center)
-                            .padding()
+                        Divider()
+                        VStack{
+                            
+                                Text(definitions[0])
+                                    .foregroundColor(.black)
+                                    .frame(maxWidth: .infinity, alignment: .center)
+                                    .padding()
+                            
+                            
+                        }
                     }
-                }
-            }
-            .padding(32)
+                    
+                }.frame(maxWidth: .infinity, minHeight: 200)
+            
+            
         }
     }
 }
