@@ -10,8 +10,7 @@ import SwiftUI
 struct DefinitionPickView: View {
     @EnvironmentObject var define: Define
     @State var word: String = ""
-    @State var picked = false
-    @State var pickedDefinition: String = ""
+
     var body: some View {
         ScrollView {
             VStack{
@@ -33,8 +32,9 @@ struct DefinitionPickView: View {
                         
                     }
                     .onTapGesture {
-                        self.picked.toggle()
-                        self.pickedDefinition = definition
+                        define.setPrimaryDefinitionForWord(word: define.pickedWordToChangeDefinition, definition: definition)
+                        NSApplication.shared.keyWindow?.close()
+                        define.pickedWordToChangeDefinition = ""
                     }
                 }
             
@@ -46,14 +46,8 @@ struct DefinitionPickView: View {
         .onAppear{
             word = define.pickedWordToChangeDefinition
         }
-        .alert("Are you sure you want to pick this definition", isPresented: $picked) {
-            Button("Cancel", role: .cancel) { }
-            Button("Yes", role: .none) {
-                define.setPrimaryDefinitionForWord(word: define.pickedWordToChangeDefinition, definition: pickedDefinition)
-                define.pickedWordToChangeDefinition = ""
-                
-            }
-        }
+        
+        
     }
 }
 
