@@ -6,6 +6,7 @@
 //  
 
 import Foundation
+import AppKit
 class Define: ObservableObject {
     @Published var pickedWordToChangeDefinition: String = ""
     @Published var definitions: [String:[String]] = [:]
@@ -62,6 +63,23 @@ class Define: ObservableObject {
     func setPrimaryDefinitionForWord(word: String, definition: String){
         let ind = definitions[word]!.firstIndex(of: definition)!
         definitions[word]!.swapAt(0, ind)
+    }
+    func exportFile(){
+        var fileContent = ""
+        for word in Array(definitions.keys){
+            fileContent.append(word + "\t" + (definitions[word]!)[0] + "\n")
+        }
+        
+        let downloadsDirectory = FileManager.default.urls(for: .downloadsDirectory, in: .userDomainMask).first!
+            let fileURL = downloadsDirectory.appendingPathComponent("QuizletSet\(UUID().uuidString).txt")
+
+        do {
+            try fileContent.write(to: fileURL, atomically: true, encoding: .utf8)
+        }
+        catch {
+            print("Error: \(error)")
+        }
+        
     }
 
 }

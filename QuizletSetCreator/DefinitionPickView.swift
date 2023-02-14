@@ -10,10 +10,46 @@ import SwiftUI
 struct DefinitionPickView: View {
     @EnvironmentObject var define: Define
     @State var word: String = ""
+    @State private var ownDefinition: String = ""
 
     var body: some View {
         ScrollView {
             VStack{
+                ZStack{
+                    RoundedRectangle(cornerRadius: 30)
+                        .frame(maxWidth: .infinity, maxHeight: .infinity)
+                        .foregroundColor(.primary)
+                        
+                            
+                    TextField(
+                        "Your own definition",
+                        text: $ownDefinition
+                    )
+                            .foregroundColor(.black)
+                            .frame(maxWidth: .infinity, alignment: .center)
+                            .padding()
+                            
+                            
+                        
+                    
+                    
+                }
+                Button(action:{
+                    if ownDefinition != ""{
+                        define.definitions[word]!.append(ownDefinition)
+                        define.setPrimaryDefinitionForWord(word: define.pickedWordToChangeDefinition, definition: ownDefinition)
+                        NSApplication.shared.keyWindow?.close()
+                        define.pickedWordToChangeDefinition = ""
+                    }
+                }){
+                    
+                        Text("Select own definition")
+                            .padding()
+                            .foregroundColor(.primary)
+                        
+                   
+                    
+                }
                 ForEach(define.definitions[define.pickedWordToChangeDefinition] ?? [], id: \.self){ definition in
                     ZStack{
                         RoundedRectangle(cornerRadius: 30)
@@ -37,6 +73,7 @@ struct DefinitionPickView: View {
                         define.pickedWordToChangeDefinition = ""
                     }
                 }
+                
             
                 
             }

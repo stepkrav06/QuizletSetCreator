@@ -19,15 +19,32 @@ struct ContentView: View {
                 "words",
                 text: $words
             )
-            Button(action:{
+            HStack{
+                Button(action:{
+                    
+                    define.getDict(words: words)
+                    
+                    
+                    
+                    
+                }){
+                    Text("Search")
+                }
+                Button(action:{
+                    
+                    define.exportFile()
                 
-                define.getDict(words: words)
+                }){
+                    Text("Export")
+                }
+                Button(action:{
+                    
+                    define.definitions = [:]
+                    words = ""
                 
-                
-                
-                
-            }){
-                Text("search")
+                }){
+                    Text("Clear")
+                }
             }
             ScrollView{
                 ForEach(Array(define.definitions.keys), id: \.self) { key in
